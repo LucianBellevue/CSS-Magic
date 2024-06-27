@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     color:#ff0000;
-    overflow: hidden;
     }
 
 body{
@@ -20,6 +19,7 @@ body{
         to bottom, transparent 0 100px,
         #ff00000e 100px 101px
         );
+        overflow: hidden;
 }
 
 p, h2 {
@@ -42,7 +42,7 @@ body::before{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
-    /* pointer-events: none; */
+    pointer-events: none;
     opacity: .2;
 }
 
