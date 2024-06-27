@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:#e60000;
     }
 
 body{
@@ -99,7 +100,7 @@ body::before{
     inset: 0 0 0 0;
     content: attr(data-content);
     z-index: 2;
-    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-stroke: 2px #ff0000;
     color: transparent;
 }
 .banner .content .author{
@@ -112,7 +113,7 @@ body::before{
     color: #e60000;
 }
 .banner .content .model{
-    background-image: url(./assets/model.png);
+    background-image: url(./assets/model2.png);
     width: 100%;
     height: 80vh;
     position: absolute;
