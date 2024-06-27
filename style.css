@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     color:#ff0000;
+    overflow: hidden;
     }
 
 body{
