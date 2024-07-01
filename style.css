@@ -218,5 +218,6 @@ button:hover {
     left: 50%;
     z-index: 1;
     margin: 0 auto;
+    margin-bottom: 16px;
     transform: translateX(-50%);
 }
